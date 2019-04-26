@@ -1,4 +1,5 @@
 import random
+import codecs
 
 def makeEngVoca(vocafile, quesNum, vocaword, vocamean): # 인자로 단어파일(str), 문항수(int), 만들어질 단어장파일이름(str), 단어정답파일이름(str)을 받음
 
@@ -6,9 +7,9 @@ def makeEngVoca(vocafile, quesNum, vocaword, vocamean): # 인자로 단어파일
         if vocaword == vocamean:
             return "단어시험지와 정답의 파일이름이 같으면 안됩니다!"
 
-        vocaTxt = open(vocafile, 'r')
-        vocaWord = open(vocaword, 'w')
-        vocaMean = open(vocamean, 'w')
+        vocaTxt = codecs.open(vocafile, 'r', encoding='utf8')
+        vocaWord = codecs.open(vocaword, 'w', encoding='utf8')
+        vocaMean = codecs.open(vocamean, 'w', encoding='utf8')
         wordList = []
         meanList = []
 
