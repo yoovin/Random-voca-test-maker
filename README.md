@@ -20,7 +20,9 @@
 ## 사용예시
 ![01](https://user-images.githubusercontent.com/35561369/56833613-e8711e80-68a9-11e9-8d3c-945763406430.PNG)
 
-#### 단어가 쓰여져있는 **txt파일**을 준비합니다.
+#### 단어가 쓰여져있는 txt파일을 준비합니다.
+#### 단어장 txt파일은 python프로그램과 같은 폴더 안에 있어야합니다.
+#### 단어장의 텍스트는 index를 매기지 마세요.
 
 ![02](https://user-images.githubusercontent.com/35561369/56833616-ed35d280-68a9-11e9-97bf-882a19e9d861.PNG)
 
@@ -39,3 +41,9 @@
 ![05](https://user-images.githubusercontent.com/35561369/56833619-edce6900-68a9-11e9-8be7-5348b6de2b52.PNG)
 
 #### 단어장에는 영어단어(원본 단어장의 공백앞에 있는 단어)만 입력되었고 정답지에는 단어와 뜻이 함께 입력됩니다.
+
+## 기능추가
+
+![인덱스추가](https://user-images.githubusercontent.com/35561369/56837146-54588480-68b4-11e9-9548-039707d70087.PNG)
+
+### 단어장의 단어들에 자동으로 index를 매기게 기능을 추가했습니다. (19/04/27)
