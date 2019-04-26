@@ -16,4 +16,7 @@ fileName = fileName + '.txt'
 wordFileName = wordFileName + '.txt'
 meanFileName = meanFileName + '.txt'
 
+print("")
 print(makeengvoca.makeEngVoca(fileName, questionNumber, wordFileName, meanFileName))
+print("")
+input("엔터키를 누르면 종료됩니다.")
